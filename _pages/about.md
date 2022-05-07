@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- My name is Jue Xu.  -->
 I earned a master’s degree in CS from the University of Maryland last year and a master’s degree in physical sciences from the University of Chicago in 2018. I am interested in quantum computation models, quantum information, and quantum complexity, especially the fundamental interplay between quantum physics and computer science. I am looking for a PhD position related to this field.
-[My CV](/assets/pdf/CV.pdf)
+<!-- [My CV](/assets/pdf/CV.pdf) -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
