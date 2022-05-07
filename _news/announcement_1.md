@@ -5,4 +5,4 @@ inline: true
 # inline: false
 ---
 
-Online poster session at QIP 2022.
+Online poster session at QIP 2022 [arXiv: 2112.04892](https://arxiv.org/abs/2112.04892).
