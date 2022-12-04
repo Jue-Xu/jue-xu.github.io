@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://jue-xu.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Jue  Xu
 
 
-  | Page not found
+  | Review of "Partitions and the grand canonical ensemble"
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://jue-xu.github.io/404.html">
+<link rel="canonical" href="https://jue-xu.github.io/blog/2017/Review-of-Partitions-and-the-grand-canonical-ensemble/">
 
 
 <!-- Dark Mode -->
@@ -80,7 +80,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -163,17 +163,180 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+
+
+
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Review of "Partitions and the grand canonical ensemble"</h1>
+    <p class="post-meta">October 22, 2017</p>
+    <p class="post-tags">
+      <a href="/blog/2017"> <i class="fas fa-calendar fa-sm"></i> 2017 </a>
+      
+        ·  
+        
+        <a href="/blog/tag/Review">
+          <i class="fas fa-hashtag fa-sm"></i> Review</a>  
+          
+      
+
+      
+        ·  
+        
+        <a href="/blog/category/blog">
+          <i class="fas fa-tag fa-sm"></i> blog</a>  
+          
+      
+
+    </p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://jue-xu.github.io/">here</a>.</p>
+  <article class="post-content">
+    <blockquote>
+  <p><a href="https://github.com/JackXu1993/Paper_Ma/blob/master/review/review.pdf" target="_blank" rel="noopener noreferrer">PDF version</a></p>
+</blockquote>
+
+<h2 id="a-physical-model-for-partitions">A physical model for partitions</h2>
+<h3 id="energy-and-the-number-to-be-partitioned">Energy and the number to be partitioned</h3>
+
+<p>The model is the Grand Canonical Ensemble,
+used to describe physical systems with a variable number of particles.
+Each part in the partition is regarded as a particle in the model.
+For each integer $k$, there is a separate species of particle of energy $k$.
+The particles are emitted and absorbed like the photons in a cavity filled with thermal radiation.
+The states of the entire system are labeled by the numbers $[m_1,m_2,m_3,\dots]$,
+where $m_k$ is the number of particles of energy $k$.
+So each state describes a partition with sum
+\begin{equation}
+    n = \sum_k k m_k.
+    \label{eq: npartition}
+\end{equation}</p>
+
+<blockquote>
+
+  <p>In the language and notation in physics, the number $n$ to be partitioned is the energy of a system $E$
+\begin{equation}
+    E = \sum_{i} n_i \varepsilon_i,
+    \label{eq: mpartition}
+\end{equation}
+with $n_i$ is the particle number of energy level $l$ and
+$\varepsilon_i$ is the energy of the $i$-th state.
+For photons, its energy level can be viewed as consecutive positive integers
+\begin{equation}
+    \varepsilon_i = i ,\quad i=1,2,\dots,
+\end{equation}
+so the \cref{eq: mpartition} becomes
+\begin{equation}
+    E = \sum_{i} i\cdot n_i ,
+    \label{eq: energy partition}
+\end{equation}
+which exactly equals \ref{eq: npartition}.</p>
+</blockquote>
+
+<h3 id="generating-function-and-partition-function">Generating function and partition function</h3>
+<p>In the physical model, $n$ is the energy of the state.
+The model is the thermal equilibrium with temperature $T$,
+so the probability of the state $[m_k]$ is
+\begin{equation}
+    f(m_k) = Z^{-1} \prod_k \exp(-bkm_k),
+\end{equation}
+with
+\begin{equation}
+    Z = \sum_{m} \prod_{k} \exp(-bkm_k)
+    = \prod_k (1-x^k)^{-1}
+    = \sum_n p(n) x^n,
+\end{equation}
+and
+\begin{equation}
+    x = \exp(-b), \quad  b=T^{-1}, \quad
+\end{equation}</p>
+
+<blockquote>
+
+  <p>Use the notation we familiar with in statistical mechanics,
+the probability of certain configuration $[n_i]$ is
+\begin{equation}
+    P([n_i]) = \frac{\prod_l \exp(-\beta n_i \varepsilon_i)}{Z},
+\end{equation}
+with the canonical partition function $Z$
+\begin{equation}
+    \begin{aligned}
+        Z
+        &amp;= \sum_{[n_i]} \prod_i \exp(-\beta n_i \varepsilon_i)<br>
+        &amp;= \sum_{E} \Omega(E) \exp(-\beta E)<br>
+        &amp;= \sum_{E} p(E) x^E,
+    \end{aligned}
+    \label{eq: def of partition function}
+\end{equation}
+with $x = e^{-\beta}$, $\beta = 1/T$ and the Boltzman constant $k_B = 1$.
+Let me explain \cref{eq: def of partition function},
+    the first line is the orginal definition of canonical partition function which means the sum over all possible configurations.
+However, the sum over all possible configurations is hard to tackle with in mathematics because there is no trick.
+So, we rearrange the method of sum by categorying all configurations with the same total energy $E$.
+Then, the quantity $\Omega(E)$ in the second line is number of configurations with the same energy $E$
+which is called microcanonical partition function.
+Recall that microcanonical ensemble is a closed system with fixed particle number $N$ and fixed energy $E$.
+Therefore, microcanonical partition function is the number of configurations with fixed total system energy $E$.
+Recall \cref{eq: energy partition}, we can find the microcanonical partition $\Omega(E)$ is exactly the partition function $p(n)$ with $E=n$ for photons.
+So, the canonical partition function is the generating function of partition function in number theory
+\begin{equation}
+        G(x)
+        = (1+x+x^2\dots)
+        \cdot (1+x^2+x^4\dots)\cdot
+        (1+x^3+x^6\dots)\cdots(1+x^l+x^{2l}+\dots)\dots
+\end{equation}
+\begin{equation}
+        G(x)
+        = \prod_{i=1}^{\infty} \sum_{j=0} x^{i j}
+        = \prod_{i=1}^{\infty} \frac{1}{1-x^i}
+        = \sum_{E} p(E) x^E
+\end{equation}
+where $i$ is the energy of energy level $\varepsilon_i  =i$ for photons
+and $j$ is the particle number on the energy level $\varepsilon_i$.
+\textbf{Generating function is a method to simulate all possible configurations by producting infinite geometric series.
+The process that one item $x^{mn}$ in a series times the other items $x^{pq}$ in each other series will get a item $x^E=x^{mn+\dots +pq}$ represents one configuration with energy $E$.
+At last, the expansion coefficients of the final polynominal is the number of configurations with the same order $x^E$, exactly the partition function $p(E)$.}
+–
+The name “partition function” is given by physicists to the sum $Z$
+and mathematicians to the coefficients $p(n)$.
+For mathematicians, $p(n)$ is the number of partitions of $n$.
+For physicists, the mean value of the energy of the ensemble is
+\begin{equation}
+    E = -Z^{-1} dZ/db = \sum_{k} k (\exp(bk)-1)^{-1},
+\end{equation}
+the free energy is
+\begin{equation}
+    F = -b^{-1} \log Z = b^{-1} = b^{-1} \sum_{k} \log(1-\exp(-bk)),
+\end{equation}
+and the entropy is
+\begin{equation}
+    S = b(E-F).
+\end{equation}</p>
+</blockquote>
+
+<h3 id="grand-canonical-ensemble">Grand canonical ensemble</h3>
+<p>In the grand cononical ensemble, the mean number of parts of size $k$ is
+\begin{equation}
+    a(k) = [\exp(bk) - 1]^{-1}
+\end{equation}</p>
+
+<p>The mean number of parts of size $k$ actually means the distribution of particle numbers at certain energy level $\varepsilon_i$.
+For photons, they obey Bose-Einstein distribution
+\begin{equation}
+        \bar{n}_i(\varepsilon_i)
+        = \frac{g_i}{e^{(\varepsilon_i-\mu)/kT}-1}
+        = \frac{1}{e^{(\varepsilon_i-\mu)/kT}-1}
+\end{equation}
+where $g_i$ is the degeneracy of energy level $\varepsilon_i$ that can be considered as 1 in this case
+and $\mu$ is chemical potential.</p>
 
   </article>
+
+  
 
 </div>
 
