@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <!-- My name is Jue Xu.  -->
-I am a PhD student major in CS at the University of Hong Kong supervised by <a href="https://qizhao-quantum.github.io">Dr. Qi ZHAO</a>.
+I am a PhD student in CS at the University of Hong Kong supervised by <a href="https://qizhao-quantum.github.io">Dr. Qi ZHAO</a>.
 I earned a master’s degree in CS from the University of Maryland and a master’s degree in physical sciences from the University of Chicago. 
 I am interested in quantum computation models, quantum information, and quantum complexity, especially the fundamental interplay between quantum physics and computer science. 
 <!-- I am looking for a PhD position related to this field. -->
