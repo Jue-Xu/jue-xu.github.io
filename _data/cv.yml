@@ -11,9 +11,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Computer Science
       institution: University of Hong Kong
-      year: 2023-
+      year: 2023 - Now
       description:
         - Supervised by <a href="https://qizhao-quantum.github.io">Dr. Qi ZHAO</a>.
     #     - Description 2.
@@ -23,13 +23,16 @@
     #         - Sub-description 2.
     - title: Master in Computer Science
       institution: University of Maryland, College Park
-      year: 2019-2022
+      year: 2019 - 2022
       # description:
       #   - Description 1.
       #   - Description 2.
     - title: Master in Physical Sciences
       institution: University of Chicago
       year: 2018-2019
+    - title: Bachelor
+      institution: Fudan University 
+      year: 2013-2017
 
 - title: Experience
   type: time_table
@@ -58,13 +61,13 @@
   contents:
     - title: <a href="https://github.com/Jue-Xu/Recipe-Quantum-Simulation">Recipe-Quantum-Simulation</a>
       year: 2024
-      description: This python package (published on PiP) contains basic ingredients for quantum simulation, such as the Hamiltonians and algorithmic primitives, mainly build on qiskit, openfermion, etc.
+      description: This python package contains basic ingredients for quantum simulation, such as the Hamiltonians and algorithmic primitives, mainly build on qiskit, openfermion, etc.
     - title: <a href="https://github.com/Jue-Xu/cookbook-quantum-simulation">Quantum Simulation Cookbook</a>
       year: 2024
-      description: The cookbook for quantum simulation.
+      description: The cookbook for digital quantum simulation.
 
-- title: Honors and Awards
-  type: time_table
+# - title: Honors and Awards
+#   type: time_table
   # contents:
     # - year: 1921
     #   items: 

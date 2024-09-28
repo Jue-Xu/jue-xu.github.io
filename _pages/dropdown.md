@@ -19,4 +19,8 @@ children:
       permalink: /repositories/
     - title: publications
       permalink: /publications/
+    - title: projects
+      permalink: /projects/
+    - title: blog
+      permalink: /blog/
 ---
