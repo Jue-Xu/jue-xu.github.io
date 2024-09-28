@@ -17,4 +17,6 @@ children:
       permalink: /teaching/
     - title: repositories
       permalink: /repositories/
+    - title: publications
+      permalink: /publications/
 ---
