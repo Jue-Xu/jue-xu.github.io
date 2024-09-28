@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-07-15 00:00:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+`Observable-Driven Speed-ups in Quantum Simulations`.
+Wenjun Yu, Jue Xu and Qi Zhao, 2024,
+[arXiv: 2407.14497](http://arxiv.org/abs/2407.14497).
