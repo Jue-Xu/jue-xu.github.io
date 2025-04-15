@@ -27,7 +27,7 @@ I was an undergraduate student of Fudan University.
 My research interest lies in the fundamental interplay between physics and computer science. 
 Currently, I am working on the complexity of quantum simulation algorithms and related problems.
 I am also interested in the formalism of quantum computation.
-Please feel free to email me if you would like to discuss with me.
+Please feel free to email me if you would like to discuss any potential project.
 <!-- I am interested in quantum computation models, quantum information, and quantum complexity, especially the fundamental interplay between physics and computer science.  -->
 <!-- I am looking for a PhD position related to this field. -->
 <!-- [My CV](/assets/pdf/CV.pdf) -->
