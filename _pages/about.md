@@ -6,6 +6,7 @@ permalink: /
 
 profile:
   align: right
+  # image: neo_headshot.jpg
   image: avatartion2.png
   # image: prof_pic.jpg
   address: >
