@@ -7,3 +7,4 @@ inline: true
 [Error Interference in Quantum Simulation](http://arxiv.org/abs/2411.03255).
 Boyang Chen, Jue Xu, Xiao Yuan and Qi Zhao, 2024,
 [arXiv: 2411.03255](http://arxiv.org/abs/2411.03255).
+Now, it is accepted by [Phys. Rev. Lett.](https://doi.org/10.1103/g2n5-qdxh).
