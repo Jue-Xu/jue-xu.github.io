@@ -5,5 +5,5 @@ inline: true
 ---
 
 [Taming Trotter Errors with Quantum Resources](http://arxiv.org/abs/2604.13486).
-Xiangran Zhang, Jue Xu, You Zhou, Qi Zhao, 2026,
+Xiangran Zhang, `Jue Xu`, You Zhou, Qi Zhao, 2026,
 [arXiv: 2604.13486](http://arxiv.org/abs/2604.13486).

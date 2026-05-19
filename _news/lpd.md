@@ -5,5 +5,5 @@ inline: true
 ---
 
 [Classical Simulation of Noiseless Quantum Dynamics without Randomness](http://arxiv.org/abs/2601.15770).
-Jue Xu, Chu Zhao, Xiangran Zhang, Shuchen Zhu, Qi Zhao, 2026,
+`Jue Xu`, Chu Zhao, Xiangran Zhang, Shuchen Zhu, Qi Zhao, 2026,
 [arXiv: 2601.15770](http://arxiv.org/abs/2601.15770).
