@@ -7,7 +7,8 @@ permalink: /
 profile:
   align: right
   # image: neo_headshot.jpg
-  image: avatartion2.png
+  image: headshot_smile.jpg
+  # image: avatartion2.png
   # image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
