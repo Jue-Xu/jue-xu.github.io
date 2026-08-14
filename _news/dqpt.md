@@ -7,4 +7,4 @@ inline: true
 [Provable Quantum Advantage for Dynamical Phase Transition](https://arxiv.org/abs/2606.30396).
 `Jue Xu`, Xiao Yuan, Qi Zhao, 2026,
 [arXiv: 2606.30396](http://arxiv.org/abs/2606.30396).
-It has been selected a contributed talk of [QSim 2026](https://qsimconference.org/).
+It has been selected a contributed talk of [QSim 2026](https://qsimconference.org/presenter/jue-xu/).

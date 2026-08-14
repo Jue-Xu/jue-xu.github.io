@@ -8,3 +8,4 @@ inline: true
 Xiangran Zhang, `Jue Xu`, Qi Zhao, You Zhou, 2026,
 [arXiv: 2604.13486](http://arxiv.org/abs/2604.13486). 
 It is now published in [Phys. Rev. Lett. 137, 070202 (2026)](https://doi.org/10.1103/qf86-f5jg).
+It has been selected a contributed talk of [QSim 2026](https://qsimconference.org/presenter/xiangran-zhang/).
