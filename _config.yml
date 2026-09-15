@@ -288,6 +288,10 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  # Within each year, newest first by the bib `month` field
+  # (journal publication month, or arXiv posting month for preprints)
+  sort_by: year,month
+  order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
@@ -295,7 +299,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, co_first, code, html, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 6  # leave blank to always show all authors

@@ -77,6 +77,8 @@
               {{author.first}} {{author.last}}
             {%- endif -%}
           {%- endif -%}
+          {%- assign co_first_count = entry.co_first | plus: 0 -%}
+          {%- if forloop.index <= co_first_count -%}<span title="Co-first author">*</span>{%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
